@@ -4,8 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>This is Metro Humming</h1>
+    <fieldset>
+      <legend><h1>What can java script do?</h1></legend>
+      <p id="Learningjs">JavaScript can change HTML content</p>
+      <button
+        type="button"
+        onclick='document.getElementById("Learningjs").innerHTML= "Hello Javascript!"'
+      >
+        Click Me!
+      </button>
+    </fieldset>
   </body>
 </html>

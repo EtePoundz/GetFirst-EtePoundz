@@ -1,9 +1,17 @@
-* {
-  margin-top: 20px;
+button {
+  border-radius: 5px;
+  background-color: white;
+  color: #696cff;
+  width: 50%;
+  height: 40px;
+  margin-left: 26%;
+  border-color: #696cff;
 }
-h1 {
-  color: #ffff;
-}
+
 body {
-  background-color: blue;
+  padding: 43px;
+}
+p,
+h2 {
+  text-align: center;
 }
